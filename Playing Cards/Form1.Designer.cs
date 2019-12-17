@@ -30,17 +30,18 @@
         {
             this.lstDeck = new System.Windows.Forms.ListBox();
             this.btnShuffle = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstDeck
             // 
             this.lstDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstDeck.FormattingEnabled = true;
-            this.lstDeck.ItemHeight = 18;
+            this.lstDeck.ItemHeight = 15;
             this.lstDeck.Location = new System.Drawing.Point(316, 33);
             this.lstDeck.Margin = new System.Windows.Forms.Padding(4);
             this.lstDeck.Name = "lstDeck";
-            this.lstDeck.Size = new System.Drawing.Size(205, 832);
+            this.lstDeck.Size = new System.Drawing.Size(205, 829);
             this.lstDeck.TabIndex = 0;
             // 
             // btnShuffle
@@ -51,12 +52,24 @@
             this.btnShuffle.TabIndex = 1;
             this.btnShuffle.Text = "Shuffle";
             this.btnShuffle.UseVisualStyleBackColor = true;
+            this.btnShuffle.Click += new System.EventHandler(this.btnShuffle_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(81, 123);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(140, 49);
+            this.btnClear.TabIndex = 2;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(577, 911);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnShuffle);
             this.Controls.Add(this.lstDeck);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -73,6 +86,7 @@
 
         private System.Windows.Forms.ListBox lstDeck;
         private System.Windows.Forms.Button btnShuffle;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

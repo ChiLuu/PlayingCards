@@ -35,5 +35,19 @@ namespace Playing_Cards
                 lstDeck.Items.Add(card); //implicit ToString method
             }
         }
+
+        private void btnShuffle_Click(object sender, EventArgs e)
+        {
+            deck.Shuffle();
+            lstDeck.Items.Clear();
+            DisplayDeck();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            deck = new Deck();
+            lstDeck.Items.Clear();
+            DisplayDeck();
+        }
     }
 }

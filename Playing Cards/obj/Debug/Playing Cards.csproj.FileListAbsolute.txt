@@ -7,3 +7,12 @@ C:\Users\820742\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing_Cards
 C:\Users\820742\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.csproj.GenerateResource.cache
 C:\Users\820742\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.exe
 C:\Users\820742\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.pdb
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\bin\Debug\Playing Cards.exe.config
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\bin\Debug\Playing Cards.exe
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\bin\Debug\Playing Cards.pdb
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.csprojAssemblyReference.cache
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing_Cards.Form1.resources
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing_Cards.Properties.Resources.resources
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.csproj.GenerateResource.cache
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.exe
+C:\Users\Chi\source\repos\Playing Cards\Playing Cards\obj\Debug\Playing Cards.pdb
